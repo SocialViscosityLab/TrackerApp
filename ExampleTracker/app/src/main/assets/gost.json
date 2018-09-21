@@ -1,0 +1,84 @@
+{
+  "locations":[
+    { "a" : {
+      "accuracy" : 0,
+      "altitude" : 198.799826704897,
+      },
+      "fromMockProvider" : false,
+      "latitude" : 40.104125,
+      "longitude" : -88.233423,
+      "provider" : "fused",
+      "speed" : 0,
+      "speedAccuracyMetersPerSecond" : 0,
+      "time" : 0,
+      "verticalAccuracyMeters" : 9.800000190734863
+    }
+    
+    { "b" : {  
+      "accuracy" : 0,
+      "altitude" : 198.799826704897,
+      },
+      "fromMockProvider" : false,
+      "latitude" : 40.110409,
+      "longitude" : -88.225600,
+      "provider" : "fused",
+      "speed" : 0,
+      "speedAccuracyMetersPerSecond" : 0,
+      "time" : 0,
+      "verticalAccuracyMeters" : 9.800000190734863
+    }
+    { "c" : {
+      "accuracy" : 0,
+      "altitude" : 198.799826704897,
+      },
+      "fromMockProvider" : false,
+      "latitude" : 40.105952,
+      "longitude" : -88.225454,
+      "provider" : "fused",
+      "speed" : 0,
+      "speedAccuracyMetersPerSecond" : 0,
+      "time" : 0,
+      "verticalAccuracyMeters" : 9.800000190734863
+    }
+    { "d" : {
+      "accuracy" : 0,
+      "altitude" : 198.799826704897,
+      },
+      "fromMockProvider" : false,
+      "latitude" : 40.105943,
+      "longitude" : -88.223837,
+      "provider" : "fused",
+      "speed" : 0,
+      "speedAccuracyMetersPerSecond" : 0,
+      "time" : 0,
+      "verticalAccuracyMeters" : 9.800000190734863
+    }
+    
+    { "e" : {  
+      "accuracy" : 0,
+      "altitude" : 198.799826704897,
+      },
+      "fromMockProvider" : false,
+      "latitude" : 40.104195,
+      "longitude" : -88.223805,
+      "provider" : "fused",
+      "speed" : 0,
+      "speedAccuracyMetersPerSecond" : 0,
+      "time" : 0,
+      "verticalAccuracyMeters" : 9.800000190734863
+    }
+    { "f" : {
+      "accuracy" : 0,
+      "altitude" : 198.799826704897,
+      },
+      "fromMockProvider" : false,
+      "latitude" : 40.104129,
+      "longitude" : -88.233429,
+      "provider" : "fused",
+      "speed" : 0,
+      "speedAccuracyMetersPerSecond" : 0,
+      "time" : 0,
+      "verticalAccuracyMeters" : 9.800000190734863
+    }
+   ]
+}
