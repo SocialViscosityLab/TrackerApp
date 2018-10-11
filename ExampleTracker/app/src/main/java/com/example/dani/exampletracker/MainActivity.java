@@ -19,12 +19,17 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 public class MainActivity extends Activity {
 
     private static final int PERMISSIONS_REQUEST = 100;
     private Button go_to_map;
     private Button go_to_radar;
+    private Logic logic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,9 +61,11 @@ public class MainActivity extends Activity {
                     new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
                     PERMISSIONS_REQUEST);
         }
-        Log.d("debugging", "The onCreate");
+
+        logic = Logic.getInstance();
         initButton();
-        loadJSONFromAsset();
+
+        // TODO loadJSONFromAsset();
     }
 
     @Override
@@ -109,7 +116,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Log.d("debugging", "On click");
-                startActivity(new Intent(MainActivity.this, RadarActivity.class));
+                // TODO: startActivity(new Intent(MainActivity.this, RadarActivity.class));
             }
         });
     }

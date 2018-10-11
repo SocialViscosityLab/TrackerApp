@@ -6,7 +6,6 @@
     <string name="firebase_path">location</string>
     <string name="go_to_map">Go to the Map</string>
     <string name="go_to_radar">Go to the Radar</string>
-
     <string name="title_activity_maps">Map</string>
     <string name="change_view">Change View</string>
     <string name="distance">Distance</string>
